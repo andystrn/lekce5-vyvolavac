@@ -54,13 +54,17 @@ function tahnoutJmeno() {
     seznam.textContent = tazenaJmena;
 
     pocitadlo();
-
 }
 
 function pocitadlo() {
-let pocetVyvolanych = document.querySelector("#pocet");
-pocetVyvolanych.innerHTML = tazenaJmena.length;
+    let pocetVyvolanych = document.querySelector("#pocet");
+    pocetVyvolanych.innerHTML = tazenaJmena.length;
 }
+
+function resetujTlacitko() {
+    location.reload();
+}
+
 
 
 
